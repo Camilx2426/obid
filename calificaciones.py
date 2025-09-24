@@ -21,7 +21,6 @@ class RegistroAlumnos:
                 self.alumnos_destacados.append(self.nombres[indice])
 
     def imprimir_resultados(self):
-        print("--- Resultados ---")
         print("Promedio grupal:", self.promedio_grupal)
         if self.alumnos_destacados:
             print("Alumnos con calificación mayor a 9.5:")
